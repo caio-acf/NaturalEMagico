@@ -1,0 +1,56 @@
+.cabecalho__logo {
+    width: calc(30% - 60px);
+}
+
+.cabecalho__pesquisa {
+    background: url(../img/lupa.png) no-repeat right;
+    background-color: #ffffff;
+    border: solid 2px #8FBC8F;
+    border-radius:10px;
+    height: 2.5rem;
+    margin: auto .5rem auto .5rem;
+    width: 40%;
+}
+
+.cabecalho__botao {
+    background: #8FBC8F;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 2.5rem;
+    text-align: center;
+    width: 5em;
+}
+
+.cabecalho__menu {
+    display: block;
+}
+
+.cabecalho__menu__lista {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.cabecalho__menu__link {
+    border: 1px solid;
+    border-radius: 0 20px 10px 20px;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link__whatsapp {
+    background-color: #f1f1f1;
+    border: 1px solid;
+    border-radius: 0 20px 10px 20px;
+    color: #8FBC8F;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 1rem;
+    text-decoration: none;
+}

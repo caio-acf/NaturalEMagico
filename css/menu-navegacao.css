@@ -1,0 +1,14 @@
+.conteudo__menu {
+    display: block;
+    margin-top: 1rem;
+}
+
+.conteudo__menu__lista {
+    display: flex;
+}
+
+.conteudo__menu__link {
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
