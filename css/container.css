@@ -1,5 +1,4 @@
 .container {
-    background: #f1f1f1;
     display: grid;
     grid-template-areas:
         "cabecalho"
@@ -11,7 +10,7 @@
 
 .cabecalho {
     align-items: center;
-    background: #2E8B57;
+    background: #f1f1f1;
     display: flex;
     grid-area: cabecalho;
     padding: 0 1rem;
