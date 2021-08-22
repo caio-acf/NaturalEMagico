@@ -7,9 +7,10 @@
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/container.css" rel="stylesheet">
         <link href="css/cabecalho.css" rel="stylesheet">
+        <link href="css/carousel.css" rel="stylesheet">
         <link href="css/menu-navegacao.css" rel="stylesheet">
     </head>
-    <body class="container">
+    <body id="container">
         <header class="cabecalho">
             <img src="./img/Natural&magico.png" alt="Natura e mágico" class="cabecalho__logo">
             <input type="text" class="cabecalho__pesquisa" placeholder="busque seu kombucha..." >
@@ -22,7 +23,7 @@
             </nav>
         </header>
         <main class="conteudo">
-            <section class="conteudo_navegacao">
+            <section class="conteudo__navegacao">
                 <div class="menu__navegacao">
                     <ul class="menu__navegacao__lista">
                         <li class="menu__navegacao__lista__link"><a href="#" class="menu__navegacao__link">HOME</a></li>
@@ -34,13 +35,13 @@
                 </div>
             </section>
             <section>
-                <nav>
-                    <ul>
-                        <li><img src="img/">Mundo Kombucha</li>
-                        <li><img src="img/">Sabores de Época</li>
-                        <li><img src="img/">Monte seu kit</li>
-                    </ul>
-                </nav>
+                <div id="carousel">
+                    <div id="carousel__imagens">
+                        <div class="carousel__imagem"><img src="./img/mundo_kombucha.png"/></div>
+                        <div class="carousel__imagem"><img src="./img/sabor_da_epoca.png"/></div>
+                        <div class="carousel__imagem"><img src="./img/produto_kit_teste.png"></div>
+                    </div>
+                </div>
                 <P>IMAGEM DE INFORMAÇÂO</P>
             </section>
             <section>
@@ -52,7 +53,7 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="rodape">
             <div>
                 <p>REDE SOCIAL</p>
                 <ul>

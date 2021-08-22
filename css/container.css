@@ -1,11 +1,14 @@
-.container {
+#container {
     display: grid;
+    height: 100vh;
+    place-items: center;
     grid-template-areas:
         "cabecalho"
         "conteudo"
         "rodape";
     grid-template-columns: auto;
     grid-template-rows: 100px auto auto;
+    width: 100vw;
 }
 
 .cabecalho {
@@ -18,5 +21,10 @@
 
 .conteudo {
     grid-area: conteudo;
+    padding: 0 1rem;
+}
+
+.rodape {
+    grid-area: rodape;
     padding: 0 1rem;
 }

@@ -1,0 +1,23 @@
+/*body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}*/
+
+#carousel {
+    width: 50vw;
+}
+
+#carousel__imagens {
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel__imagem {
+    flex: none;
+}
+
+.carousel__imagem, img {
+    height: 100%;
+    width: 100%;
+}
