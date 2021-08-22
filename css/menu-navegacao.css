@@ -1,6 +1,7 @@
 .conteudo__navegacao {
+    place-items: center;
+    height: 10vh;
     margin-top: 1rem;
-    height: 25%;
     width: 100%;
 }
 
