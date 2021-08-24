@@ -1,31 +1,15 @@
-.conteudo__navegacao {
-    place-items: center;
-    height: 10vh;
-    margin-top: 1rem;
-    width: 100%;
-}
-
-.menu__navegacao {
-    background-color: #8FBC8F;
-    border: 3px solid #7ca47c;
-    border-radius: 10px 10px 0px 0px;
-    height: 100%;
-}
-
-
-.menu__navegacao__lista {
+.navegacao__menu {
     display: flex;
-    justify-content: center;
-    height: 100%;
+    padding: 10px 0px;
     width: 100%;
 }
 
-.menu__navegacao__lista__link {
+.navegacao__menu__lista {
     text-align: center;
     width: 20%;
 }
 
-.menu__navegacao__link {
+.navegacao__menu__lista__link {
     color: #f1f1f1;
     font-size: 1.2rem;
     font-weight: bold;
@@ -33,6 +17,6 @@
     text-decoration: none;
 }
 
-.menu__navegacao, .menu__navegacao__lista, .menu__navegacao__lista__link, .menu__navegacao__link {
+.navegacao__menu, .navegacao__menu__lista, .menu__navegacao__link {
     align-items: center;
 }

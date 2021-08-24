@@ -11,40 +11,44 @@
         <link href="css/menu-navegacao.css" rel="stylesheet">
     </head>
     <body id="container">
-        <header class="cabecalho">
-            <img src="./img/Natural&magico.png" alt="Natura e mágico" class="cabecalho__logo">
-            <input type="text" class="cabecalho__pesquisa" placeholder="busque seu kombucha..." >
-            <button class="cabecalho__botao">Buscar</button>
-            <nav class="cabecalho__menu">
-                <ul class="cabecalho__menu__lista">
-                    <li><a href="https://api.whatsapp.com/send?phone=5511993215994" target="_blank" class="cabecalho__menu__link__whatsapp">Compre Comigo!</a></li>
-                    <li><a href="#" class="cabecalho__menu__link">Meu Cadastro</a></li>
-                </ul>
-            </nav>
+        <header>
+            <div class="cabecalho">
+                <img src="./img/Natural&magico.png" alt="Natura e mágico" class="cabecalho__logo">
+                <input type="text" class="cabecalho__pesquisa" placeholder="busque seu kombucha..." >
+                <button class="cabecalho__botao">Buscar</button>
+                <nav class="cabecalho__menu">
+                    <ul class="cabecalho__menu__lista">
+                        <li><a href="https://api.whatsapp.com/send?phone=5511993215994" target="_blank" class="cabecalho__menu__link__whatsapp">Compre Comigo!</a></li>
+                        <li><a href="#" class="cabecalho__menu__link">Meu Cadastro</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <main class="conteudo">
-            <section class="conteudo__navegacao">
-                <div class="menu__navegacao">
-                    <ul class="menu__navegacao__lista">
-                        <li class="menu__navegacao__lista__link"><a href="#" class="menu__navegacao__link">HOME</a></li>
-                        <li class="menu__navegacao__lista__link"><a href="#" class="menu__navegacao__link">PRODUTOS</a></li>
-                        <li class="menu__navegacao__lista__link"><a href="#" class="menu__navegacao__link">MONTE SEU KIT</a></li>
-                        <li class="menu__navegacao__lista__link"><a href="#" class="menu__navegacao__link">OFERTA</a></li>
-                        <li class="menu__navegacao__lista__link"><a href="#" class="menu__navegacao__link">CLUB NATURAL</a></li>
+        <main>
+            <section>
+                <div class="navegacao">
+                    <ul class="navegacao__menu">
+                        <li class="navegacao__menu__lista"><a href="#" class="navegacao__menu__lista__link">HOME</a></li>
+                        <li class="navegacao__menu__lista"><a href="#" class="navegacao__menu__lista__link">PRODUTOS</a></li>
+                        <li class="navegacao__menu__lista"><a href="#" class="navegacao__menu__lista__link">MONTE SEU KIT</a></li>
+                        <li class="navegacao__menu__lista"><a href="#" class="navegacao__menu__lista__link">OFERTA</a></li>
+                        <li class="navegacao__menu__lista"><a href="#" class="navegacao__menu__lista__link">CLUB NATURAL</a></li>
                     </ul>
                 </div>
             </section>
-            <section>
-                <div id="carousel">
-                    <div id="carousel__imagens">
-                        <div class="carousel__imagem"><img src="./img/mundo_kombucha.png"/></div>
-                        <div class="carousel__imagem"><img src="./img/sabor_da_epoca.png"/></div>
-                        <div class="carousel__imagem"><img src="./img/produto_kit_teste.png"></div>
+            <section class="carousel">
+                <div class="carousel__menu">
+                    <div class="carousel__imagens">
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/mundo_kombucha.png"/></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/sabor_da_epoca.png"/></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/produto_kit_teste.png"/></div>
                     </div>
                 </div>
-                <P>IMAGEM DE INFORMAÇÂO</P>
             </section>
-            <section>
+            <section class="conteudo">
+                <div>
+                    <P>IMAGEM DE INFORMAÇÂO</P>
+                </div>
                 <div>
                     <p>OFERTAS</p>
                 </div>
@@ -81,5 +85,6 @@
                 </ul>
             </div>
         </footer>
+        <script src="js/carousel.js"></script>
     </body>
 </html>

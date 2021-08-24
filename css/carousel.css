@@ -1,23 +1,24 @@
-/*body {
-    display: grid;
-    height: 100vh;
-    place-items: center;
-}*/
-
-#carousel {
-    width: 50vw;
+.carousel__menu {
+    width: 80vw;
 }
 
-#carousel__imagens {
+.carousel__imagens {
     display: flex;
     overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: X mandatory;
+    /*-webkit-overflow-scrolling: touch;*/
 }
-
 .carousel__imagem {
     flex: none;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    pointer-events: none;
 }
 
-.carousel__imagem, img {
+.imagem__carousel {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
