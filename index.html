@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Natura e mágico</title>
-        <link href="css/reset.css" rel="stylesheet">
-        <link href="css/container.css" rel="stylesheet">
-        <link href="css/cabecalho.css" rel="stylesheet">
-        <link href="css/carousel.css" rel="stylesheet">
-        <link href="css/menu-navegacao.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet"/>
+        <link href="css/container.css" rel="stylesheet"/>
+        <link href="css/cabecalho.css" rel="stylesheet"/>
+        <link href="css/carousel.css" rel="stylesheet"/>
+        <link href="css/conteudo.css" rel="stylesheet">
+        <link href="css/menu-navegacao.css" rel="stylesheet"/>
     </head>
     <body id="container">
         <header>
@@ -39,52 +40,88 @@
             <section class="carousel">
                 <div class="carousel__menu">
                     <div class="carousel__imagens">
-                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/mundo_kombucha.png"/></div>
-                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/sabor_da_epoca.png"/></div>
-                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/produto_kit_teste.png"/></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/mundo_kombucha.png" alt="Mundo Kombucha"/></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/sabor_da_epoca.png" alt="Sabor da época"/></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/produto_kit_teste.png" alt="Monte seu Kit"/></div>
                     </div>
                 </div>
             </section>
             <section class="conteudo">
-                <div>
-                    <P>IMAGEM DE INFORMAÇÂO</P>
+                <div class="imagem__entrega">
+                    <img class="imagem__baner" src="img/entrega.png" alt="Entrega somente em são paulo"/>
                 </div>
-                <div>
-                    <p>OFERTAS</p>
+                <div class="conteudo__ofertas">
+                    <div class="conteudo__titulo">
+                        <span class="titulo__ofertas">OFERTA</span>
+                    </div>
+                    <div class="imagens__ofertas">
+                        <div class="indice__ofertas">
+                            <div class="lista__ofetas">
+                                <a href="#"><img class="oferta__garrafa" src="img/produto_teste.png" alt="Sabor limão"/></a>
+                                <p class="oferta__titulo__preco">Sabor Limão</p>
+                                <p class="oferta__titulo__preco">R$ 13,50</p>
+                            </div>
+                            <div class="lista__ofetas">
+                                <a href="#"><img class="oferta__garrafa" src="img/produto_teste.png" alt="Sabor abacaxi"/></a>
+                                <p class="oferta__titulo__preco">Sabor Abacaxi</p>
+                                <p class="oferta__titulo__preco">R$ 13,50</p>
+                            </div>
+                            <div class="lista__ofetas">
+                                <a href="#"><img class="oferta__garrafa" src="img/produto_teste.png" alt="Sabor laranja"/></a>
+                                <p class="oferta__titulo__preco">Sabor Laranja</p>
+                                <p class="oferta__titulo__preco">R$ 13,50</p>
+                            </div>
+                            <div class="lista__ofetas">
+                                <a href="#"><img class="oferta__garrafa" src="img/produto_teste.png" alt="Sabor amora"/></a>
+                                <p class="oferta__titulo__preco">Sabor Amora</p>
+                                <p class="oferta__titulo__preco">R$ 15,50</p>
+                            </div>
+                            <div class="lista__ofetas">
+                                <a href="#"><img class="oferta__garrafa" src="img/Kit produto.png" alt="Sabor abacaxi"/></a>
+                                <p class="oferta__titulo__preco">Kit Sabor Abacaxi</p>
+                                <p class="oferta__titulo__preco">10 unidades R$ 75,90</p>
+                            </div>
+                            <div class="lista__ofetas">
+                                <a href="#"><img class="oferta__garrafa" src="img/Kit produto.png" alt="Sabor abacaxi"/></a>
+                                <p class="oferta__titulo__preco">Kit Sabor Laranja</p>
+                                <p class="oferta__titulo__preco">10 unidades R$ 13,50</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <p>MAIS VENDIDOS</p>
                 </div>
             </section>
         </main>
-        <footer class="rodape">
-            <div>
-                <p>REDE SOCIAL</p>
-                <ul>
-                    <li><a href="#">FACEBOOK</a></li>
-                    <li><a href="#">INSTAGRAM</a></li>
-                </ul>
-                <p>São Paulo, SP</p>
-            </div>
-            <div>
-                <p>SOBRE</p>
-                <ul>
-                    <li><a href="#">Quem somos ?</a></li>
-                    <li><a href="#">Mundo Kombucha</a></li>
-                    <li><a href="#">Depoimentos</a></li>
-                </ul>
-                <p>Atendimento</br>Seg á Sex das 09h as 18h</p>
-            </div>
-            <div>
-                <p>AJUDA</p>
-                <ul>
-                    <li><a href="#">Whatapp</a></li>
-                    <li><a href="#">Fale conosco</a></li>
-                    <li><a href="#">PolÍtica de entrega</a></li>
-                    <li><a href="#">Política de troca e devolução</a></li>
-                </ul>
-            </div>
-        </footer>
+            <footer class="rodape">
+                <div>
+                    <p>REDE SOCIAL</p>
+                    <ul>
+                        <li><a href="#">FACEBOOK</a></li>
+                        <li><a href="#">INSTAGRAM</a></li>
+                    </ul>
+                    <p>São Paulo, SP</p>
+                </div>
+                <div>
+                    <p>SOBRE</p>
+                    <ul>
+                        <li><a href="#">Quem somos ?</a></li>
+                        <li><a href="#">Mundo Kombucha</a></li>
+                        <li><a href="#">Depoimentos</a></li>
+                    </ul>
+                    <p>Atendimento</br>Seg á Sex das 09h as 18h</p>
+                </div>
+                <div>
+                    <p>AJUDA</p>
+                    <ul>
+                        <li><a href="#">Whatapp</a></li>
+                        <li><a href="#">Fale conosco</a></li>
+                        <li><a href="#">PolÍtica de entrega</a></li>
+                        <li><a href="#">Política de troca e devolução</a></li>
+                    </ul>
+                </div>
+            </footer>
         <script src="js/carousel.js"></script>
     </body>
 </html>

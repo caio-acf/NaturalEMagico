@@ -1,13 +1,12 @@
 .carousel__menu {
-    width: 80vw;
+    width: 70vw;
+    margin-bottom: 1rem;
 }
-
 .carousel__imagens {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: X mandatory;
-    /*-webkit-overflow-scrolling: touch;*/
 }
 .carousel__imagem {
     flex: none;

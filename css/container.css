@@ -1,4 +1,5 @@
 #container {
+    background: #f1f1f1;
     display: grid;
     grid-template-areas:
         "cabecalho"
@@ -13,7 +14,6 @@
 
 .cabecalho {
     align-items: center;
-    background: #f1f1f1;
     display: flex;
     grid-area: cabecalho;
     margin-bottom: 1rem;
@@ -24,12 +24,12 @@
     border: 3px solid #7ca47c;
     border-radius: 10px 10px 0px 0px;
     grid-area: navegacao;
+    margin-bottom: 1rem;
 }
 
 .carousel {
     display: grid;
     grid-area: carousel;
-    height: 100vh;
     place-items: center;
 }
 
