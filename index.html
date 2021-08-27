@@ -8,14 +8,15 @@
         <link href="css/container.css" rel="stylesheet"/>
         <link href="css/cabecalho.css" rel="stylesheet"/>
         <link href="css/carousel.css" rel="stylesheet"/>
-        <link href="css/oferta.css" rel="stylesheet">
+        <link href="css/oferta.css" rel="stylesheet"/>
+        <link href="css/vendidos.css" rel="stylesheet"/>
         <link href="css/menu-navegacao.css" rel="stylesheet"/>
     </head>
     <body id="container">
         <header>
             <div class="cabecalho">
-                <img src="./img/Natural&magico.png" alt="Natura e mágico" class="cabecalho__logo">
-                <input type="text" class="cabecalho__pesquisa" placeholder="busque seu kombucha..." >
+                <img src="./img/Natural&magico.png" alt="Natura e mágico" class="cabecalho__logo"/>
+                <input type="text" class="cabecalho__pesquisa" placeholder="busque seu kombucha...">
                 <button class="cabecalho__botao">Buscar</button>
                 <nav class="cabecalho__menu">
                     <ul class="cabecalho__menu__lista">
@@ -40,15 +41,15 @@
             <section class="carousel">
                 <div class="carousel__menu">
                     <div class="carousel__imagens">
-                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/mundo_kombucha.png" alt="Mundo Kombucha"/></div>
-                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/sabor_da_epoca.png" alt="Sabor da época"/></div>
-                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/produto_kit_teste.png" alt="Monte seu Kit"/></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/mundo_kombucha.png" alt="Mundo Kombucha"></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/sabor_da_epoca.png" alt="Sabor da época"></div>
+                        <div class="carousel__imagem"><img class="imagem__carousel" src="img/produto_kit_teste.png" alt="Monte seu Kit"></div>
                     </div>
                 </div>
             </section>
             <section class="oferta">
                 <div class="imagem__entrega">
-                    <img class="imagem__baner" src="img/entrega.png" alt="Entrega somente em são paulo"/>
+                    <img class="imagem__baner" src="img/entrega.png" alt="Entrega somente em são paulo">
                 </div>
                 <div class="conteudo__ofertas">
                     <div class="conteudo__titulo">
@@ -91,8 +92,13 @@
                 </div>
             </section>
             <section class="vendidos">
-                <div >
-                    <span class="">MAIS VENDIDOS</span>
+                <div class="vendidos__titulo">
+                    <span class="titulo__vendidos">MAIS VENDIDOS</span>
+                </div>
+                <div class="vendidos__imagens">
+                    <img class="carousel__vendidos" src="img/campiao_1.png">
+                    <img class="carousel__vendidos" src="img/campiao_2.png">
+                    <img class="carousel__vendidos" src="img/campiao_3.png">
                 </div>
             </section>
         </main>
@@ -125,5 +131,6 @@
                 </div>
             </footer>
         <script src="js/carousel.js"></script>
+        <script src="js/carouselVendidos.js"></script>
     </body>
 </html>
