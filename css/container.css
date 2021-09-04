@@ -43,5 +43,10 @@
 }
 
 .rodape {
+    background-color: #000;
+    display: flex;
     grid-area: rodape;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-align: center;
 }

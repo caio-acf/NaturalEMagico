@@ -1,0 +1,33 @@
+.rodape__opcoes {
+    padding: 10px;
+}
+
+.rodape__titulos {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.rede__lista {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.rede__lista__link {
+    padding: 10px;
+}
+
+.rodape__menu {
+    padding: 10px;
+    text-align: left;
+}
+
+.rodape__lista {
+    margin-bottom: 10px;
+}
+
+.rodape__link {
+    color: #fff;
+    text-decoration: none;
+}

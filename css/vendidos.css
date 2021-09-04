@@ -11,14 +11,3 @@
     color: #f1f1f1;
     font-size: 1.5rem;
 }
-
-.vendidos__imagens {
-    align-items: center;
-    box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
-    overflow: hidden;
-}
-
-.carousel__vendidos {
-    width: 50%;
-}
-
